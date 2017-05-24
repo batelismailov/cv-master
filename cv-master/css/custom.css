@@ -19,6 +19,7 @@ body
 
 #intro
 {
+    
     display: flex;
     align-items: center;
     border-bottom: 1px solid #a5a5a5;
