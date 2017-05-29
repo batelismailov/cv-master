@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Open Sans',sans-serif;
+    font-size: 70%;
 }
 
 #cv 
@@ -89,11 +90,13 @@ body
 }
 #experience {
     display: flex;
-    padding-left: 16px;
+   
 }
 
-.description section{
+.description section
+{
     display: flex;
+  
 }
 
 #stats section{
@@ -105,10 +108,73 @@ body
 }
 
 #pro-skills {
-    background: #3F51B5;
+    background: rgba(33, 189, 235, 0.8);
 }
 
 #per-skills {
-    background: #8BC34A;
+    background: rgba(209, 230, 47, 0.87);
     
+}
+
+.palegoldenrod {
+    background-color:whitesmoke;
+}
+
+.description 
+{
+  flex-basis: 70%   
+}
+.description section
+{
+    display:flex ;
+    flex-direction : row;
+}
+.description section aside
+{
+    text-align:right;
+}
+.description section aside,article
+{
+    padding: 15px;
+}
+.description section aside h5
+{
+   color: #008bf0;
+}
+
+
+#stats 
+{
+  display:flex ;
+  flex-direction: column;
+  flex-basis: 30%;
+      
+}
+
+.skills 
+{  
+  flex-grow: 2; 
+  display : flex;
+  flex-direction:column;
+    
+ 
+}
+.skills h3
+{
+    margin-left: 20px;
+}
+.skills ul li 
+{
+   margin-top: 15px; 
+}
+
+.skillsC {
+    display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+    background-color: red;
 }
